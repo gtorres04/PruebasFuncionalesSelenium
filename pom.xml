@@ -5,7 +5,6 @@
 	<artifactId>PracticaDosSelenium</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
-		<!-- <org.seleniumhq.selenium.version>2.51.0</org.seleniumhq.selenium.version> -->
 		<org.seleniumhq.selenium.version>3.4.0</org.seleniumhq.selenium.version>
 	</properties>
 	<dependencies>
@@ -15,44 +14,11 @@
 			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
-		<!-- <dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-java</artifactId>
-			<version>${org.seleniumhq.selenium.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-api</artifactId>
-			<version>${org.seleniumhq.selenium.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-support</artifactId>
-			<version>${org.seleniumhq.selenium.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-remote-driver</artifactId>
-			<version>${org.seleniumhq.selenium.version}</version>
-		</dependency> -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-server</artifactId>
 			<version>${org.seleniumhq.selenium.version}</version>
 		</dependency>
-		
-
-
-		<!-- <dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-htmlunit-driver</artifactId>
-			<version>${org.seleniumhq.selenium.version}</version>
-		</dependency> -->
-
-
-		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-remote-driver 
-			<dependency> <groupId>org.seleniumhq.selenium</groupId> <artifactId>selenium-remote-driver</artifactId> 
-			<version>${org.seleniumhq.selenium.version}</version> </dependency> -->
 	</dependencies>
 	<build>
 		<pluginManagement>
